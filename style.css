@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 30px;
+    max-width: 100%;
+    width: 800px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+    
+}
+h2{
+    margin: 30px;
+    
+}
+
+.joke{
+    margin: 50px auto; 
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    max-width: 600px;
+
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(55, 64, 158);
+    color: #fff;
+    padding: 14px 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.585), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+footer{
+    color: #fff;
+    margin: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+i{
+    color: black;
+    font-size: 20px;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+
